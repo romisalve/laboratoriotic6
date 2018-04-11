@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+touch -m --date="-12 hours" $1 
+ 

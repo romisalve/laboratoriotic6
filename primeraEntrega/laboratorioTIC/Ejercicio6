@@ -1,0 +1,18 @@
+#!/bin/sh
+
+
+cd /home/romina
+mkdir $1
+
+cd $1
+
+for  var in "$@" 
+do
+contador=$(($contador + 1))
+
+if [ $contador -gt 1 ]
+ then
+ touch $var 
+fi
+done
+

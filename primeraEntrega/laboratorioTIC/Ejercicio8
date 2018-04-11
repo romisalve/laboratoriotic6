@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo -n "Ingrese un numero para calcular su factorial: "
+read NUMERO
+
+CONTADOR=1
+factorial=1
+
+while [ $NUMERO -gt $CONTADOR ]
+do
+CONTADOR=$(( $CONTADOR+1 ))
+factorial=$(( factorial*$CONTADOR ))
+
+
+done
+echo $factorial
