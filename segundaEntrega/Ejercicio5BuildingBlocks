@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cantProcesos=`ps aux|wc -l`
+
+echo $cantProcesos 

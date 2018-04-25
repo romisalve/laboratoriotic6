@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+if [ $# -eq 1 ]
+then
+	read -r FIRSTLINE < $1
+        echo $FIRSTLINE
+
+else
+	echo "ERROR: No se puede leer el texto o no existe el archivo"
+
+	
+fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+USERACTUAL=`whoami`
+echo $USERACTUAL 
+ps -U $USERACTUAL 
+

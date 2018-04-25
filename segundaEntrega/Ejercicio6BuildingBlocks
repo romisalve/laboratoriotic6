@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cantProcesos=`ps -U $1|wc -l`
+
+echo $cantProcesos

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+ps -eo pid,etimes|
+
+while read etimes
+do
+	if [ $2 -lt 3600 ]
+	then
+		print $1
+	fi
+done
